@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toy api</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="toy-header">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/800px-Toy_Story_logo.svg.png"
+        alt="toy-header"
+      />
+    </div>
+    <div class="container">
+      <form action="" class="add-toy-form">
+        <h3>Create a Toy</h3>
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter toys Name"
+          class="input-text"
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="img"
+          value=""
+          placeholder="Enter toys Image URL"
+          class="input-text"
+        />
+        <br />
+        <br />
+        <input type="submit" name="submit" value="Create New Toy" />
+      </form>
+    </div>
+    <p>Render Toys<button id="new-toy-btn">Add a New Toy</button></p>
+    <din id="toy-collection"></din>
+  </body>
+</html>

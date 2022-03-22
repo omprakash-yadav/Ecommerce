@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+     href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="style2.css">
+     <script src="formFilop.js"></script>
+</head>
+<body>
+    <div class="container" >
+        <table id="table" border="4" cellpadding="10">
+            <tr id="row">
+                <th >First Name
+                    <td><input type="text"name="fname" id="fname"></td>
+                </th>
+            </tr>   
+                <tr>
+                    <th>Last Name
+                        <td><input type="text" name="lname"id="lname"></td>
+                    </th>
+                </tr> 
+                <tr>
+                    <th>Email
+                        <td><input type="email"name="email"id="email"></td>
+                    </th>
+                </tr> 
+                <tr>
+                    <th>Age
+                        <td><input type="number"name="age"id="age"></td>
+                    </th>
+                </tr> 
+                <tr id="btna">
+                    <td><input class="btn btn-danger" type="button" id="btn" value="ADD" onclick="AddRow()"/></td>
+                </tr>
+        </table>
+         <br>
+        <table border="4" id="show">
+            <tr>
+                <th>First name</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

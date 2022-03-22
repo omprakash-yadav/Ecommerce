@@ -1,0 +1,35 @@
+
+.checked {
+  display: inline-block;
+  color: orange;
+}
+input {
+  padding-top: 20px;
+}
+.radio{
+  align-items: center;
+  padding-left: 1%;
+}
+table {
+  font-family:serif;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align:center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+textarea{
+  width: 100%;
+  
+}
+button{
+  background-color: blue;
+  color: rgb(90, 90, 151);
+  padding: 15px 32px;
+}

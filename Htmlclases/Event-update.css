@@ -1,0 +1,25 @@
+.block {
+  border-style: solid;
+  border-color: rgb(168, 57, 57);
+  border-top: 2%;
+  border-bottom: 2%;
+  border-left: 2%;
+  border-right: 2%;
+}
+.second-block {
+  border-style: solid;
+  border-color: rgb(57, 19, 146);
+  text-align: right;
+  text-indent: 2px;
+}
+
+.heding {
+  text-align: center;
+  text-indent: 2px;
+}
+.card-img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 50%;
+  margin-bottom: 80%;
+}
